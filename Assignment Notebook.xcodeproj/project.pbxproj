@@ -11,6 +11,8 @@
 		F8DD3B972B7ADCC5009C5F50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3B962B7ADCC5009C5F50 /* ContentView.swift */; };
 		F8DD3B992B7ADCC6009C5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD3B982B7ADCC6009C5F50 /* Assets.xcassets */; };
 		F8DD3B9C2B7ADCC6009C5F50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD3B9B2B7ADCC6009C5F50 /* Preview Assets.xcassets */; };
+		F8DD3BA32B7ADD63009C5F50 /* Assignment List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BA22B7ADD63009C5F50 /* Assignment List.swift */; };
+		F8DD3BA52B7BC1A2009C5F50 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BA42B7BC1A1009C5F50 /* AddAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F8DD3B962B7ADCC5009C5F50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8DD3B982B7ADCC6009C5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8DD3B9B2B7ADCC6009C5F50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8DD3BA22B7ADD63009C5F50 /* Assignment List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assignment List.swift"; sourceTree = "<group>"; };
+		F8DD3BA42B7BC1A1009C5F50 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				F8DD3B942B7ADCC5009C5F50 /* Assignment_NotebookApp.swift */,
 				F8DD3B962B7ADCC5009C5F50 /* ContentView.swift */,
+				F8DD3BA42B7BC1A1009C5F50 /* AddAssignmentView.swift */,
 				F8DD3B982B7ADCC6009C5F50 /* Assets.xcassets */,
 				F8DD3B9A2B7ADCC6009C5F50 /* Preview Content */,
+				F8DD3BA22B7ADD63009C5F50 /* Assignment List.swift */,
 			);
 			path = "Assignment Notebook";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DD3BA32B7ADD63009C5F50 /* Assignment List.swift in Sources */,
 				F8DD3B972B7ADCC5009C5F50 /* ContentView.swift in Sources */,
 				F8DD3B952B7ADCC5009C5F50 /* Assignment_NotebookApp.swift in Sources */,
+				F8DD3BA52B7BC1A2009C5F50 /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
